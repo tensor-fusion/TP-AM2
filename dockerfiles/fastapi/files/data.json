@@ -1,0 +1,32 @@
+{
+  "columns": [
+    "Item_Weight",
+    "Item_Visibility",
+    "Item_MRP",
+    "Outlet_Establishment_Year",
+    "Outlet_Size",
+    "Outlet_Location_Type",
+    "Outlet_Type_Supermarket Type1",
+    "Outlet_Type_Supermarket Type2"
+  ],
+  "target_col": "Item_Outlet_Sales",
+  "columns_dtypes": {
+    "Item_Weight": "float64",
+    "Item_Visibility": "float64",
+    "Item_MRP": "category",
+    "Outlet_Establishment_Year": "int64",
+    "Outlet_Size": "int64",
+    "Outlet_Location_Type": "int64",
+    "Outlet_Type_Supermarket Type1": "bool",
+    "Outlet_Type_Supermarket Type2": "bool"
+  },
+  "standard_scaler_mean": [
+    12.898675268817204,
+    0.06070047699053764
+  ],
+  "standard_scaler_std": [
+    4.67047104505763,
+    0.04460172704328937
+  ],
+  "date": "2024/06/21-13:29:50\""
+}

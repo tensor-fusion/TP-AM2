@@ -1,0 +1,5 @@
+/.venv
+/airflow/dags/__pycache__
+/airflow/logs
+/hyperparam-tuning/__pycache__
+.DS_Store
