@@ -1,5 +1,28 @@
 # MLOps Project - ML II
 
+# Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Services and Access](#services-and-access)
+  - [Apache Airflow](#apache-airflow)
+  - [MLflow](#mlflow)
+  - [MinIO](#minio)
+  - [PostgreSQL](#postgresql)
+  - [FastAPI](#fastapi)
+- [Dataset](#dataset)
+- [Model](#model)
+  - [ETL Workflow](#etl-workflow)
+  - [Hyperparameter Tuning](#hyperparameter-tuning)
+  - [Model Serving](#model-serving)
+  - [Model Retraining](#model-retraining)
+- [Deployment](#deployment)
+  - [Docker Compose](#docker-compose)
+  - [Running the Project](#running-the-project)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+
 ## Overview
 
 This is an MLOps project built to simulate a real-world scenario in which we predict product sales using ML.
